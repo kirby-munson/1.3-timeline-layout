@@ -3,95 +3,127 @@ html {
 }
 
 body {
-  background-color: gray;
+  background-color: none;
   width: 100%;
 }
 
 /*classes*/
 
 .section {
-  margin-top: 20px;
-  border: 1px solid black;
+  margin: 0 auto;
+  display: block;
+  max-width: 997px;
 }
 
-.section_stuff {
-  margin: 0 auto;
+.section_date_time {
+  margin-top: 15px;
   text-align: center;
   display: inline-block;
-  border: 1px solid black;
-  height: 395px;
-  width: 396px;
-  position: absolute;
-  left: 300px;
+  height: 95px;
+  width: 96px;
+  float: left;
 }
 
 .date {
-  display: inline-block;;
-  border: 1px solid black;
+  display: block;
   height: 25px;
   width: 25px;
 }
 
 .time {
-  display: inline-block;
-  border: 1px solid black;
+  display: block;
   height: 25px;
   width: 25px;
+}
+
+.section_objects {
+  display: block;
+  position: relative;;
+  left: -18px;
 }
 
 .circle_big {
   display: inline-block;
-  border: 1px solid black;
-  height: 35px;
-  width: 35px;
+  height: 48px;
+  width: 48px;
   border-radius: 50%;
+  background: rgb(183,	218,	246);
+  z-index: 1;
 }
 
 .circle_small {
   display: inline-block;;
-  border: 1px solid black;
-  height: 25px;
-  width: 25px;
+  height: 37px;
+  width: 37px;
   border-radius: 50%;
+  margin: 3px auto;
+  background: rgb(92,161,215);
+  z-index: 1;
+
 }
 
 .line {
   display: inline-block;
-  border: 1px solid black;
-  height: 360px;
-  width: 5px;
+  width: 844px;
+  border-left: 5px solid rgb(183,	218,	246);
 }
 
-.triangle {
+/*.triangle {
   display: inline-block;
   width: 0;
   height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
 
-  border-right:10px solid blue;
-}
+  border-right:7px solid rgb(125,188,235);
+  position: absolute;
+  left: 543px;
+  margin-top: 30px;
+}*/
 
 .section_words {
   display: inline-block;
-  border: 1px solid black;
-  height: 350px;
-  width: 250px;
-  position: absolute;
-  left: 750px;
+  height: 379px;
+  width: 782px;
+  background: rgb(125,188,235);
+  border-radius: 3%;
+  float: right;
 }
 
-.box {
-  display: inline-block;
-  border: 1px solid black;
-  height: 350px;
-  width: 250px;
-}
 
 .title {
-  border: 1px solid black;
+  border-bottom: .5px solid white;
+  width: 350px;
+  height: 50px;
+  margin: 15px 5px 5px 5px;
+  padding: 10px 10px 0px 20px;
+  color: white;
+  font-size: 25px;
 }
 
 .content {
-  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+  margin: 9px 5px 5px 12px;
+  color: white;
+}
+
+.date_text {
+  font-family: helvetica, Arial, sans-serif;
+  color: rgb(191,207,218);
+}
+
+.time_text {
+  font-family: helvetica, Arial, sans-serif;
+  color: rgb(123,172,223);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+p {
+  font-family: helvetica, Arial, sans-serif;
+}
+
+.title {
+  font-family: helvetica, Arial, sans-serif;
 }
