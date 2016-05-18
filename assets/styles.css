@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  width: 100%;
+}
+
+/*classes*/
+
+.section {
+  margin-top: 20px;
+}
+
+.section_stuff {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid black;
+  height: 395px;
+  width: 396px;
+  position: absolute;
+  left: 300px;
+}
+
+.date {
+  display: inline-block;;
+  border: 1px solid black;
+  height: 25px;
+  width: 25px;
+}
+
+.time {
+  display: inline-block;
+  border: 1px solid black;
+  height: 25px;
+  width: 25px;
+}
+
+.circle_big {
+  display: inline-block;
+  border: 1px solid black;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.circle_small {
+  display: inline-block;;
+  border: 1px solid black;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.line {
+  display: inline-block;
+  border: 1px solid black;
+  height: 360px;
+  width: 5px;
+}
+
+.triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-right:10px solid blue;
+}
+
+.section_words {
+  display: inline-block;
+  border: 1px solid black;
+  height: 350px;
+  width: 250px;
+  position: absolute;
+  left: 750px;
+}
+
+.box {
+  display: inline-block;
+  border: 1px solid black;
+  height: 350px;
+  width: 250px;
+}
+
+.title {
+  border: 1px solid black;
+}
+
+.content {
+  border: 1px solid black;
+}
