@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background-color: none;
   width: 100%;
+  margin-top: 20px;
 }
 
 /*classes*/
@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
   display: block;
   max-width: 997px;
+
 }
 
 .section_date_time {
@@ -20,7 +21,7 @@ body {
   text-align: center;
   display: inline-block;
   height: 95px;
-  width: 96px;
+  width: 130px;
   float: left;
 }
 
@@ -28,24 +29,28 @@ body {
   display: block;
   height: 25px;
   width: 25px;
+  float: right;
+  margin: -7px 49px;
 }
 
 .time {
   display: block;
   height: 25px;
   width: 25px;
+  margin: 0 4px;
 }
 
 .section_objects {
   display: block;
   position: relative;;
-  left: -18px;
+  left: -23px;
+  margin: -4px 0px -35px 0px;
 }
 
 .circle_big {
   display: inline-block;
-  height: 48px;
-  width: 48px;
+  height: 55px;
+  width: 55px;
   border-radius: 50%;
   background: rgb(183,	218,	246);
   z-index: 1;
@@ -53,10 +58,10 @@ body {
 
 .circle_small {
   display: inline-block;;
-  height: 37px;
-  width: 37px;
+  height: 43px;
+  width: 43px;
   border-radius: 50%;
-  margin: 3px auto;
+  margin: 6px 5px 5px 6px;
   background: rgb(92,161,215);
   z-index: 1;
 
@@ -65,10 +70,11 @@ body {
 .line {
   display: inline-block;
   width: 844px;
-  border-left: 5px solid rgb(183,	218,	246);
+  border-left: 9px solid rgb(183,	218,	246);
+  margin: 0;
 }
 
-/*.triangle {
+.triangle {
   display: inline-block;
   width: 0;
   height: 0;
@@ -77,17 +83,18 @@ body {
 
   border-right:7px solid rgb(125,188,235);
   position: absolute;
-  left: 543px;
-  margin-top: 30px;
-}*/
+  left: 303px;
+  margin-top: 26px;
+}
 
 .section_words {
   display: inline-block;
   height: 379px;
   width: 782px;
   background: rgb(125,188,235);
-  border-radius: 3%;
+  border-radius: 1%;
   float: right;
+  padding: 6px;
 }
 
 
@@ -102,28 +109,31 @@ body {
 }
 
 .content {
-  width: 400px;
-  height: 200px;
   margin: 9px 5px 5px 12px;
   color: white;
+  margin: 27px 16px;
+  line-height: 25px;
 }
 
 .date_text {
-  font-family: helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-family: arial bold, Arial, sans-serif;
   color: rgb(191,207,218);
 }
 
 .time_text {
-  font-family: helvetica, Arial, sans-serif;
+  font-family: arial bold, Arial, sans-serif;
   color: rgb(123,172,223);
-  font-size: 28px;
+  font-size: 38px;
   font-weight: bold;
 }
 
 p {
-  font-family: helvetica, Arial, sans-serif;
+  font-family: arial thin, Arial, sans-serif;
+  font-size: 13px;
 }
 
 .title {
-  font-family: helvetica, Arial, sans-serif;
+  font-family: arial, sans-serif;
+  font-weight: bold;
 }
