@@ -45,6 +45,7 @@ body {
   position: relative;;
   left: -23px;
   margin: -4px 0px -35px 0px;
+  width: 190px;
 }
 
 .circle_big {
@@ -64,14 +65,14 @@ body {
   margin: 6px 5px 5px 6px;
   background: rgb(92,161,215);
   z-index: 1;
-
 }
 
 .line {
   display: inline-block;
   width: 844px;
   border-left: 9px solid rgb(183,	218,	246);
-  margin: 0;
+  margin: -20px 0px 0px 0px;
+  padding-bottom: 20px;
 }
 
 .triangle {
@@ -82,37 +83,39 @@ body {
   border-bottom: 7px solid transparent;
 
   border-right:7px solid rgb(125,188,235);
-  position: absolute;
-  left: 303px;
-  margin-top: 26px;
+  position: relative;
+  left: -13px;
 }
 
 .section_words {
-  display: inline-block;
-  height: 379px;
+  display: block;
   width: 782px;
+  transition: background-color;
   background: rgb(125,188,235);
   border-radius: 1%;
   float: right;
   padding: 6px;
 }
 
+.section_words:hover {
+  background-color: rgb(95,147,196);
+}
 
 .title {
-  border-bottom: .5px solid white;
   width: 350px;
-  height: 50px;
-  margin: 15px 5px 5px 5px;
+  height: 27px;
+  margin: 30px 5px 5px 15px;
   padding: 10px 10px 0px 20px;
   color: white;
   font-size: 25px;
 }
 
 .content {
-  margin: 9px 5px 5px 12px;
+  border-top: .2px solid white;
   color: white;
-  margin: 27px 16px;
+  margin: 13px 13px;
   line-height: 25px;
+  padding: 9px 5px;
 }
 
 .date_text {
@@ -130,10 +133,23 @@ body {
 
 p {
   font-family: arial thin, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 18px;
+}
+
+img {
+  width: 17px;
+  height: 30px;
+  margin: 6px 0px 0px 12px;
+}
+
+.image{
+  display: inline-block;
+  position: absolute;
 }
 
 .title {
   font-family: arial, sans-serif;
   font-weight: bold;
+  text-align: left;
+  padding: 0;
 }
